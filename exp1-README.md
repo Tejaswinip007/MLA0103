@@ -1,0 +1,13 @@
+START
+
+INPUT N
+
+IF N = 0 THEN
+    SUM ← 0
+ELSE
+    SUM ← N + Sum(N-1)
+END IF
+
+OUTPUT SUM
+
+STOP
